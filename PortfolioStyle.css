@@ -1,0 +1,93 @@
+ul {
+	list-style: none;
+	width: 25%;
+	margin: auto;
+	padding-inline-start: 0;
+}
+li {
+	float: left !important;
+	box-sizing: border-box;
+	width: fit-content;
+	text-align: center;
+	margin: auto;
+	margin-top: 0;
+	padding-top: 0;
+}
+body {
+	background-color: steelblue;
+	color: oldlace;
+}
+a {
+	text-decoration: none;
+	color: oldlace;
+}
+a:hover {
+	color: cyan;
+}
+a:active {
+	color: goldenrod;
+}
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	background: navy;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: min-content;
+	z-index: 10;
+	list-style: none;
+}
+
+.container {
+	background-color: navy;
+	margin: auto;
+	border: goldenrod 5px solid;
+	border-radius: 15px;
+	width: fit-content;
+	padding: 1% 2%;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.space {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20vh;
+}
+.welcome-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+}
+.projects-section {
+	margin: auto;
+	width: fit-content;
+}
+#navbar ul {
+	width: 100%;
+	padding-inline-start: 40px;
+}
+#projects {
+	height: 100vh;
+	background-color: indigo;
+}
+#projheader {
+	margin-top: 20%;
+}
+#segwaydiv {
+	background-color: indigo;
+	overflow: auto;
+}
+@media (max-width: 600px) {
+	body {
+		background-color: lightblue;
+	}
+}

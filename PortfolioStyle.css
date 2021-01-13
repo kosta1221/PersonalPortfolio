@@ -1,3 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 ul {
 	list-style: none;
 	width: 25%;
@@ -47,7 +53,6 @@ a:active {
 	border-radius: 15px;
 	width: fit-content;
 	padding: 1% 2%;
-	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .space {
 	margin: auto;
@@ -85,6 +90,14 @@ a:active {
 #segwaydiv {
 	background-color: indigo;
 	overflow: auto;
+}
+#projects-list {
+	display: flex;
+	width: 100%;
+	list-style: none;
+}
+#contact {
+	height: 70px;
 }
 @media (max-width: 600px) {
 	body {

@@ -99,7 +99,7 @@ a:active {
 #contact {
 	height: 70px;
 }
-@media (max-width: 600px) {
+@media all and (max-width: 600px) {
 	body {
 		background-color: lightblue;
 	}
